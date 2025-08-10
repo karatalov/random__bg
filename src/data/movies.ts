@@ -4,6 +4,7 @@ import movie3 from '../assets/movie3.webp'
 import movie4 from '../assets/movie4.webp'
 import movie5 from '../assets/movie5.webp'
 import movie6 from '../assets/movie6.webp'
+import movie7 from '../assets/movie7.webp'
 
 export interface Movie {
 	id: number
@@ -54,5 +55,12 @@ export const movies: Movie[] = [
 		description:
 			'Кинотрилогия «Властели́н коле́ц» — снятая режиссёром Питером Джексоном серия из связанных единым сюжетом кинофильмов, представляющая собой экранизацию одноимённого романа Дж. Р. Р. Толкина. В трилогию входят фильмы: 2001 — Властелин колец: Братство Кольца 2002 — Властелин колец: Две крепости',
 		image: movie6,
+	},
+	{
+		id: 7,
+		title: 'Интерстеллар',
+		description:
+			'Наше время на Земле подошло к концу, команда исследователей берет на себя самую важную миссию в истории человечества; путешествуя за пределами нашей галактики, чтобы узнать есть ли у человечества будущее среди звезд.',
+		image: movie7,
 	},
 ]
