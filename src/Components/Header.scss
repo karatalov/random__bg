@@ -1,0 +1,33 @@
+#header {
+	padding: 30px 0;
+	background-color: #0f0f0f;
+	border-bottom: 1px solid white;
+	.header {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		&--icons {
+			font-size: 34px;
+			color: aliceblue;
+			cursor: pointer;
+			transition: 0.6s ease-in-out;
+			&:hover {
+				transform: scale(1.2);
+			}
+		}
+		&--nav {
+			display: flex;
+			gap: 50px;
+			a {
+				color: white;
+				font-weight: 600;
+				font-size: 16px;
+				transition: 0.6s ease-in-out;
+				&:hover {
+					color: rgb(186, 221, 252);
+					transform: scale(1.1);
+				}
+			}
+		}
+	}
+}
